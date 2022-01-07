@@ -1,0 +1,120 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+.main {
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  background: hsla(0, 0%, 100%, 0.98);
+  transition: box-shadow 0.25s ease 0s;
+}
+.main2 {
+  zoom: 1;
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #00b39b;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.logo_doc {
+  width: 268px;
+  height: 33px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+#introduction {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  margin: 2% 10%;
+}
+#introduction div {
+  display: flex;
+}
+
+#introduction h1 {
+  color: #00b39b;
+  font-size: 2.125rem;
+  margin: 2%;
+}
+#introduction div p {
+  font-weight: 400;
+  color: gray;
+  line-height: 1.5;
+  padding: 2%;
+}
+@media (max-width: 500px) {
+  #introduction div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #introduction div p {
+    width: 300px;
+  }
+}
+#countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2% 10%;
+}
+.country {
+  margin-bottom: 2%;
+  border-radius: 2%;
+}
+.country img {
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+.country div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.country div {
+  padding: 4%;
+}
+.country div p {
+  color: gray;
+}
+.country div button {
+  color: white;
+  background-color: blue;
+  padding: 2%;
+}
+.country:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
